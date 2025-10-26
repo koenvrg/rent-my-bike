@@ -3,19 +3,19 @@ POST http://localhost:8080/signup
 Content-Type: application/json
 
 {
-  "email": "dean2",
+  "email": "koen@silvas.nl",
   "userType": "CUSTOMER",
-  "password": "dean",
-  "firstName": "John",
-  "lastName": "Doe",
+  "password": "welkom123",
+  "firstName": "Koen",
+  "lastName": "Vergeer",
   "phone": "06 123456789",
   "userPoints": 0,
   "address": {
-    "street": "123 Main Street",
-    "city": "Amsterdam",
+    "street": "Hogeschoollaan",
+    "city": "Breda",
     "postalCode": "1011AA",
-    "houseNumber": 0,
-    "subHouseNumber": "test"
+    "houseNumber": 31,
+    "subHouseNumber": "a"
   }
 }
 

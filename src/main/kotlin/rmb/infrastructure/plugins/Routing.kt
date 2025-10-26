@@ -15,9 +15,7 @@ import rmb.application.usecases.bike.GetPersonalbikesUsecase
 import rmb.application.usecases.bike.UpdatebikeUsecase
 import rmb.application.usecases.rental.ApproveRentalUsecase
 import rmb.application.usecases.rental.CancelRentalUsecase
-import rmb.application.usecases.rental.GetRentalUsecase
 import rmb.application.usecases.rental.RentAdvertisementUsecase
-import rmb.application.usecases.rentaltrip.RegisterRentalTripUsecase
 import rmb.application.usecases.user.LoginUsecase
 import rmb.application.usecases.user.SignupUsecase
 import rmb.domain.repositories.AddressRepositoryInterface
@@ -25,7 +23,6 @@ import rmb.domain.repositories.AdvertisementRepositoryInterface
 import rmb.domain.repositories.bikeImageRepositoryInterface
 import rmb.domain.repositories.bikeRepositoryInterface
 import rmb.domain.repositories.RentalRepositoryInterface
-import rmb.domain.repositories.RentalTripRepositoryInterface
 import rmb.domain.repositories.UserRepositoryInterface
 import rmb.domain.validatie.ExistingbikeAdvertisementValidator
 import rmb.domain.validatie.ExistingbikeValidator
@@ -35,7 +32,6 @@ import rmb.infrastructure.repositories.AdvertisementRepository
 import rmb.infrastructure.repositories.bikeImageRepository
 import rmb.infrastructure.repositories.bikeRepository
 import rmb.infrastructure.repositories.RentalRepository
-import rmb.infrastructure.repositories.RentalTripRepository
 import rmb.infrastructure.repositories.UserRepository
 import rmb.presentation.routes.advertisement.createAdvertisementRoute
 import rmb.presentation.routes.advertisement.deleteAdvertisementRoute
@@ -49,9 +45,7 @@ import rmb.presentation.routes.bike.getPersonalbikesRoute
 import rmb.presentation.routes.bike.updatebikeRoute
 import rmb.presentation.routes.rental.approveRentalRoute
 import rmb.presentation.routes.rental.cancelRentalRoute
-import rmb.presentation.routes.rental.getRentalRoute
 import rmb.presentation.routes.rental.rentAdvertisementRoute
-import rmb.presentation.routes.rentaltrip.registerRentalTripRoute
 import rmb.presentation.routes.user.userLoginRoute
 import rmb.presentation.routes.user.userSignupRoute
 
@@ -62,7 +56,6 @@ fun Application.configureRouting() {
     val advertisementRepository: AdvertisementRepositoryInterface = AdvertisementRepository(addressRepository)
     val bikeImageRepository: bikeImageRepositoryInterface = bikeImageRepository()
     val rentalRepository: RentalRepositoryInterface = RentalRepository()
-    val rentalTripRepository: RentalTripRepositoryInterface = RentalTripRepository()
 
     val existingbikeValidator = ExistingbikeValidator(bikeRepository)
     val existingbikeAdvertisementValidator = ExistingbikeAdvertisementValidator(advertisementRepository)
@@ -78,8 +71,6 @@ fun Application.configureRouting() {
     val getAdvertisementUsecase = GetAdvertisementUsecase(advertisementRepository)
     val getAvailableAdvertisementsUsecase = GetAvailableAdvertisementsUsecase(advertisementRepository)
     val rentAdvertisementUsecase = RentAdvertisementUsecase(rentalRepository, userRepository, advertisementRepository)
-    val registerRentalTripUsecase = RegisterRentalTripUsecase(rentalTripRepository, rentalRepository)
-    val getRentalUsecase = GetRentalUsecase(rentalRepository, rentalTripRepository)
     val cancelRentalUsecase = CancelRentalUsecase(rentalRepository)
     val approveRentalUsecase = ApproveRentalUsecase(rentalRepository)
     val deleteAdvertisementUsecase = DeleteAdvertisementUsecase(advertisementRepository, bikeRepository, rentalRepository)
@@ -104,8 +95,6 @@ fun Application.configureRouting() {
         getAdvertisementRoute(getAdvertisementUsecase)
         getAvailableAdvertisementsRoute(getAvailableAdvertisementsUsecase)
         rentAdvertisementRoute(rentAdvertisementUsecase)
-        registerRentalTripRoute(registerRentalTripUsecase)
-        getRentalRoute(getRentalUsecase)
         cancelRentalRoute(cancelRentalUsecase)
         approveRentalRoute(approveRentalUsecase)
         deleteAdvertisementRoute(deleteAdvertisementUsecase)

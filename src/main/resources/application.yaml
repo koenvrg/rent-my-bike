@@ -8,5 +8,5 @@ ktor:
 jwt:
     domain: "https://localhost/"
     audience: "myAudience"
-    realm: "RentABike"
+    realm: "RentAbike"
     secret: "secret"

@@ -11,5 +11,4 @@ fun RentalEntity.toResponse() =
         rentalStatus = rentalStatus,
         pickUpDate = pickUpDate,
         returningDate = returningDate,
-        rentalTrips = rentalTrips.map { it.toResponse() },
     )

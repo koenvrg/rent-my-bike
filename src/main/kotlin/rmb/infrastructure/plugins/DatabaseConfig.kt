@@ -35,7 +35,6 @@ fun initDatabase() {
             AdvertisementTable,
             bikeImageTable,
             RentalTable,
-            RentalTripTable,
         )
     }
 }

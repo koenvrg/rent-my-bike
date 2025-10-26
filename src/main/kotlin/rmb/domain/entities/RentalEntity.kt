@@ -11,11 +11,7 @@ data class RentalEntity(
     val rentalStatus: RentalStatus,
     val pickUpDate: LocalDateTime,
     val returningDate: LocalDateTime,
-    var rentalTrips: List<RentalTripEntity> = emptyList(),
 ) {
-    fun setTrips(rentalTrips: List<RentalTripEntity>) {
-        this.rentalTrips = rentalTrips
-    }
 
     fun ensureStatusPending() {
         if (this.rentalStatus != RentalStatus.PENDING) {

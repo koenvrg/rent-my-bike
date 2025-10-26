@@ -1,4 +1,4 @@
 root = true
 
 [*.{kt,kts}]
-ktlint_standard_no-wildBiked-imports = disabled
+ktlint_standard_no-wildbiked-imports = disabled
