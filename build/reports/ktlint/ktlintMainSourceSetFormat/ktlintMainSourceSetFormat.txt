@@ -1,0 +1,36 @@
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\domain\repositories\[0mCarRepositoryInterface.kt[90m:[0m4[90m:1:[0m Unused import [90m(standard:no-unused-imports)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m1[90m:1:[0m Unexpected indentation (8) (should be 12) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m21[90m:20:[0m A multiline expression should start on a new line [90m(standard:multiline-expression-wrapping)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m22[90m:13:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m28[90m:39:[0m A multiline expression should start on a new line [90m(standard:multiline-expression-wrapping)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m29[90m:29:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m38[90m:7:[0m A multiline expression should start on a new line [90m(standard:multiline-expression-wrapping)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m39[90m:1:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m40[90m:5:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m41[90m:15:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m42[90m:19:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m43[90m:15:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m44[90m:13:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m47[90m:16:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m49[90m:7:[0m Unexpected indentation (8) (should be 12) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m60[90m:1:[0m A multiline expression should start on a new line [90m(standard:multiline-expression-wrapping)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m61[90m:33:[0m A multiline expression should start on a new line [90m(standard:multiline-expression-wrapping)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m62[90m:9:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m63[90m:4:[0m Unexpected indentation (16) (should be 20) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m64[90m:1:[0m Unexpected indentation (16) (should be 24) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m65[90m:32:[0m Unexpected indentation (16) (should be 24) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m68[90m:19:[0m Unexpected indentation (16) (should be 24) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m69[90m:26:[0m Unexpected indentation (12) (should be 20) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\application\usecases\car\[0mUpdateCarUsecase.kt[90m:[0m71[90m:7:[0m Unexpected indentation (12) (should be 16) [90m(standard:indent)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\infrastructure\plugins\[0mRouting.kt[90m:[0m3[90m:1:[0m Imports must be ordered in lexicographic order without any empty lines in-between with "java", "javax", "kotlin" and aliases in the end [90m(standard:import-ordering)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\presentation\dto\car\[0mUpdateCar.kt[90m:[0m1[90m:1:[0m File must end with a newline (\n) [90m(standard:final-newline)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\presentation\routes\car\[0mUpdateCarRoute.kt[90m:[0m3[90m:1:[0m Imports must be ordered in lexicographic order without any empty lines in-between with "java", "javax", "kotlin" and aliases in the end [90m(standard:import-ordering)[0m
+[90mC:\Users\koenv\IdeaProjects\Avans-Rent-my-car\src\main\kotlin\rmc\presentation\routes\car\[0mUpdateCarRoute.kt[90m:[0m24[90m:1:[0m Unexpected blank line(s) before "}" [90m(standard:no-blank-line-before-rbrace)[0m
+
+Summary error count (descending) by rule:
+  standard:indent: 18
+  standard:multiline-expression-wrapping: 5
+  standard:import-ordering: 2
+  standard:final-newline: 1
+  standard:no-blank-line-before-rbrace: 1
+  standard:no-unused-imports: 1

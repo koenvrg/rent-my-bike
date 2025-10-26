@@ -1,0 +1,21 @@
+### Create a new user with address
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "email": "dean2",
+  "userType": "CUSTOMER",
+  "password": "dean",
+  "firstName": "John",
+  "lastName": "Doe",
+  "phone": "06 123456789",
+  "userPoints": 0,
+  "address": {
+    "street": "123 Main Street",
+    "city": "Amsterdam",
+    "postalCode": "1011AA",
+    "houseNumber": 0,
+    "subHouseNumber": "test"
+  }
+}
+
